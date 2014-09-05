@@ -3,6 +3,8 @@ AQUATEER
 
 Software and hardware for a mermaid conversion kit.
 
+![Aquateer Concept](https://raw.githubusercontent.com/bluerobotics/aquateer/master/images/concept.png "Aquateer Concept")
+
 ##Aquateering
 
 The thruster speed is controlled through logical use of the reed switch. A magnet can be used to "tap" the switch like a button. 

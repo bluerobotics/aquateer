@@ -61,7 +61,7 @@ void loop() {
 
 	checkButtonTimeout();
 
-	int16_t throttle = throttleLevel*100;
+	int16_t throttle = constrain(throttleLevel,-4,4)*100;
 
 	leftThruster.writeMicroseconds(baseThrottle+throttle);
 	rightThruster.writeMicroseconds(baseThrottle+throttle);
